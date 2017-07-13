@@ -21,20 +21,14 @@ iscontained = iscontained_step3
 
 
 def iscontained_step4(contained, container):
-    if contained == [] or contained == container:
-        return True
-    else:
-        return False
+    return contained == [] or contained == container
 
 
 iscontained = iscontained_step4
 
 
 def iscontained_step5(contained, container):
-    if contained == []:
-        return True
-    else:
-        return contained[0] in container
+    return contained == [] or contained[0] in container
 
 
 iscontained = iscontained_step5
