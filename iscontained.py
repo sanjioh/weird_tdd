@@ -33,8 +33,6 @@ iscontained = iscontained_step4
 def iscontained_step5(contained, container):
     if contained == []:
         return True
-    if container == []:
-        return False
     return contained == container
 
 
