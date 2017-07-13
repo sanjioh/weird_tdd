@@ -1,6 +1,4 @@
 # coding: utf-8
-
-
 def iscontained_step1(contained, container):
     return True
 
