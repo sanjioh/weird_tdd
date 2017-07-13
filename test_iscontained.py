@@ -19,16 +19,12 @@ def test_step4():
 
 
 def test_step5():
-    assert iscontained([1], [2]) is False
-
-
-def test_step6():
     assert iscontained([1], [2, 1]) is True
 
 
-def test_step7():
+def test_step6():
     assert iscontained([1, 3], [2, 1]) is False
 
 
-def test_step8():
+def test_step7():
     assert iscontained([1, 2], [2, 1]) is True
